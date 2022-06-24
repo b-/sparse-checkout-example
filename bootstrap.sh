@@ -13,7 +13,8 @@ case $TEAM in
 	FOLDERS="service web/browser"
 	;;
 *)
-	die "please specify a valid team"
+	echo "$0: please specify a valid team"
+	exit 1
 	;;
 esac
 
